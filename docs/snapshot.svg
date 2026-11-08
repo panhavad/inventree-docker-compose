@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient></defs>
+<rect width="1200" height="640" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="44" rx="18" fill="#21262d"/><rect y="26" width="1200" height="18" fill="#21262d"/>
+<circle cx="28" cy="22" r="7" fill="#ff5f56"/><circle cx="52" cy="22" r="7" fill="#ffbd2e"/><circle cx="76" cy="22" r="7" fill="#27c93f"/>
+<text x="600" y="28" fill="#8b949e" font-size="15" text-anchor="middle">github.com/panhavad/inventree-docker-compose</text>
+<rect x="40" y="76" width="6" height="58" rx="3" fill="#58a6ff"/>
+<text x="62" y="118" fill="#f0f6fc" font-size="40" font-weight="700">InvenTree Docker Compose</text>
+<text x="62" y="168" fill="#c9d1d9" font-size="20">docker installation for inventree</text>
+<rect x="40" y="270" width="520" height="330" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="62" y="302" fill="#8b949e" font-size="15" font-weight="600">PROJECT STRUCTURE</text>
+<text x="62" y="334" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── .env</text>
+<text x="62" y="361" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── Caddyfile</text>
+<text x="62" y="388" fill="#7ee787" font-size="17" font-family="Consolas, monospace">├── docker-compose.yml</text>
+<text x="62" y="415" fill="#7ee787" font-size="17" font-family="Consolas, monospace">└── README.md</text>
+<rect x="590" y="270" width="570" height="230" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="612" y="302" fill="#8b949e" font-size="15" font-weight="600">HOW IT WORKS</text>
+<rect x="612" y="322" width="160" height="56" rx="10" fill="#161b22" stroke="#58a6ff"/>
+<text x="692" y="356" fill="#e6edf3" font-size="15" text-anchor="middle">Browser</text>
+<path d="M774 350 h18" stroke="#8b949e" stroke-width="2"/><path d="M792 350 l-7 -5 v10 z" fill="#8b949e"/>
+<rect x="794" y="322" width="160" height="56" rx="10" fill="#161b22" stroke="#58a6ff"/>
+<text x="874" y="356" fill="#e6edf3" font-size="15" text-anchor="middle">Caddy proxy</text>
+<path d="M956 350 h18" stroke="#8b949e" stroke-width="2"/><path d="M974 350 l-7 -5 v10 z" fill="#8b949e"/>
+<rect x="976" y="322" width="160" height="56" rx="10" fill="#161b22" stroke="#58a6ff"/>
+<text x="1056" y="346" fill="#e6edf3" font-size="15" text-anchor="middle">InvenTree server -</text>
+<text x="1056" y="366" fill="#e6edf3" font-size="15" text-anchor="middle">gunicorn</text>
+<path d="M1056 380 v12 H692 v14" stroke="#8b949e" stroke-width="2" fill="none"/>
+<rect x="612" y="408" width="160" height="56" rx="10" fill="#161b22" stroke="#58a6ff"/>
+<text x="692" y="432" fill="#e6edf3" font-size="15" text-anchor="middle">Static / media</text>
+<text x="692" y="452" fill="#e6edf3" font-size="15" text-anchor="middle">volume</text>
+<path d="M774 436 h18" stroke="#8b949e" stroke-width="2"/><path d="M792 436 l-7 -5 v10 z" fill="#8b949e"/>
+<rect x="794" y="408" width="160" height="56" rx="10" fill="#161b22" stroke="#58a6ff"/>
+<text x="874" y="442" fill="#e6edf3" font-size="15" text-anchor="middle">PostgreSQL</text>
+<path d="M956 436 h18" stroke="#8b949e" stroke-width="2"/><path d="M974 436 l-7 -5 v10 z" fill="#8b949e"/>
+<rect x="976" y="408" width="160" height="56" rx="10" fill="#161b22" stroke="#58a6ff"/>
+<text x="1056" y="442" fill="#e6edf3" font-size="15" text-anchor="middle">InvenTree worker</text>
+<text x="612" y="534" fill="#8b949e" font-size="15" font-weight="600">TECH STACK</text>
+<rect x="612" y="548" width="144" height="32" rx="16" fill="#58a6ff" fill-opacity="0.18" stroke="#58a6ff"/>
+<text x="684.0" y="569" fill="#f0f6fc" font-size="15" text-anchor="middle">Docker Compose</text>
+<rect x="766" y="548" width="99" height="32" rx="16" fill="#58a6ff" fill-opacity="0.18" stroke="#58a6ff"/>
+<text x="815.5" y="569" fill="#f0f6fc" font-size="15" text-anchor="middle">InvenTree</text>
+<rect x="875" y="548" width="108" height="32" rx="16" fill="#58a6ff" fill-opacity="0.18" stroke="#58a6ff"/>
+<text x="929.0" y="569" fill="#f0f6fc" font-size="15" text-anchor="middle">PostgreSQL</text>
+<rect x="993" y="548" width="63" height="32" rx="16" fill="#58a6ff" fill-opacity="0.18" stroke="#58a6ff"/>
+<text x="1024.5" y="569" fill="#f0f6fc" font-size="15" text-anchor="middle">Caddy</text>
+</svg>
